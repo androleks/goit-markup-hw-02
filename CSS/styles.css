@@ -63,6 +63,44 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
 
+/* index.html main filling */
+.main-index
+{
+    background: var(--NAVY-BLUE, #2E2F42);
+1x
+
+}
+.main-index-header-text
+{
+    color: var(--WHITE, #FFF);
+text-align: center;
+/* Header 1 */
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 107.143% */
+letter-spacing: 1.12px;
+}
+
+.button-order-service-text
+{
+    color: var(--WHITE, #FFF);
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+/* Button */
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+/* portfolio.html main filling */
 .all-filter-button
 {
     color: var(--WHITE, #FFF);
