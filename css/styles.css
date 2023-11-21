@@ -1,5 +1,5 @@
 :root {--IRIS: #4D5AE5; --NAVY: #2E2F42; --SLATE: #434455; --WHITE: #FFF;--CLOUD: #F4F4FD; --OCEAN: #404BBF;}
-:root {--letter-spacing-h2: 0.72px; --letter-spacing-h3: 0.4px; --letter-spacing-button-text: 0.64px; --letter-spacing-logo: 0.54px; --letter-spacing-text: 0.32px; --main-header-text: 1.12px;}
+:root {--letter-spacing-h2: 0.72px; --letter-spacing-h3: 0.4px; --letter-spacing-button-text: 0.64px; --letter-spacing-logo: 0.02em; --letter-spacing-text: 0.32px; --main-header-text: 1.12px;}
 
 
 
@@ -20,8 +20,6 @@ body {
 
 button {
     cursor: pointer;
-    background-color:hover: var(--OCEAN);
-    background-color:focus: var(--OCEAN);
 }
 
 
@@ -57,6 +55,8 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: var(--letter-spacing-text);
 }
+
+.link:hover, .link:focus { color: var(--OCEAN)}
 
 .address
 {
@@ -119,6 +119,9 @@ background: var(--IRIS);
 /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 
+.button-order-service-text:focus, .button-order-service-text:hover { color: var(--OCEAN); }
+
+
 .studio-header
 {
     color: var(--WHITE);
@@ -160,6 +163,11 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: var(--letter-spacing-h2);
 text-transform: capitalize;
+}
+
+.team
+{
+    background-color: var(--CLOUD);
 }
 
 .our-team-header
