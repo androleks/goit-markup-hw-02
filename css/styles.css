@@ -1,4 +1,4 @@
-:root {--text-color: #434455; --background-color: #FFFFFF; --IRIS: #4D5AE5; --NAVY-BLUE: #2E2F42; --SLATE: #434455; --WHITE: #FFF;--CLOUD: #F4F4FD;}
+:root {--IRIS: #4D5AE5; --NAVY: #2E2F42; --SLATE: #434455; --WHITE: #FFF;--CLOUD: #F4F4FD; --OCEAN: #404BBF;}
 :root {--letter-spacing-h2: 0.72px; --letter-spacing-h3: 0.4px; --letter-spacing-button-text: 0.64px; --letter-spacing-logo: 0.54px; --letter-spacing-text: 0.32px; --main-header-text: 1.12px;}
 
 body {
@@ -33,7 +33,7 @@ button
 }
 
 .logo-end-up 
-{ color: var(--NAVY-BLUE);
+{ color: var(--NAVY);
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -45,7 +45,7 @@ button
 
 .nav-menu
 {
-    color: var(--NAVY-BLUE);
+    color: var(--NAVY);
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -207,6 +207,10 @@ font-style: normal;
 font-weight: 500;
 line-height: 150%;
 letter-spacing: var(--letter-spacing-button-text);
+/* Button */
+border-radius: 4px;
+background: var(--OCEAN);
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .filter-button
