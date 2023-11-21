@@ -1,18 +1,20 @@
 :root {--IRIS: #4D5AE5; --NAVY: #2E2F42; --SLATE: #434455; --WHITE: #FFF;--CLOUD: #F4F4FD; --OCEAN: #404BBF;}
 :root {--letter-spacing-h2: 0.72px; --letter-spacing-h3: 0.4px; --letter-spacing-button-text: 0.64px; --letter-spacing-logo: 0.54px; --letter-spacing-text: 0.32px; --main-header-text: 1.12px;}
 
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--SLATE);
     background-color: var(--WHITE);
     }
 
-ul 
+.ulist 
 {
     list-style-type: none;
 }
 
-a { 
+.link { 
     text-decoration: none; 
   }
 
@@ -77,7 +79,7 @@ letter-spacing: var(--letter-spacing-text);
 /* index.html main filling */
 .main-index
 {
-    background: var(--NAVY-BLUE);
+    background: var(--NAVY);
 }
 
 .main-index-header-text
@@ -95,6 +97,7 @@ letter-spacing: var(--main-header-text);
 
 .button-order-service-text
 {
+    
 
     color: var(--WHITE);
 /* Button Text */
@@ -112,12 +115,12 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 .studio-header
 {
-    color: var(--background-color);
+    color: var(--WHITE);
 }
 
 .features-list-header
 {
-    color: var(--NAVY-BLUE);
+    color: var(--NAVY);
 /* Header 3 */
 font-family: Roboto;
 font-size: 20px;
@@ -170,7 +173,7 @@ text-transform: capitalize;
 .our-team-list-header
 {
     color: var(--NAVY);
-text-align: center;
+/* text-align: center; */
 /* Header 3 */
 font-family: Roboto;
 font-size: 20px;
@@ -183,7 +186,7 @@ letter-spacing: var(--letter-spacing-h3);
 .our-team-list-text
 {
     color: var(--SLATE);
-text-align: center;
+/* text-align: center; */
 /* Body */
 font-family: Roboto;
 font-size: 16px;
@@ -223,7 +226,16 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
     font-weight: 500;
     line-height: 150%;
     letter-spacing: var(--letter-spacing-button-text);
+    /* Button */
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
     
+}
+
+.photo-header
+{ 
+    color: var(--WHITE);
 }
 
 .photo-h3 
