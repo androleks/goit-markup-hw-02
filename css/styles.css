@@ -1,5 +1,5 @@
 :root {--IRIS: #4D5AE5; --NAVY: #2E2F42; --SLATE: #434455; --WHITE: #FFF;--CLOUD: #F4F4FD; --OCEAN: #404BBF;}
-:root {--letter-spacing-h2: 0.72px; --letter-spacing-h3: 0.4px; --letter-spacing-button-text: 0.64px; --letter-spacing-logo: 0.02em; --letter-spacing-text: 0.32px; --main-header-text: 1.12px;}
+:root {--letter-spacing-h2: 0.72px; --letter-spacing-h3: 0.02em; --letter-spacing-button-text: 0.04em; --letter-spacing-logo: 0.03em; --letter-spacing-text: 0.32px; --main-header-text: 1.12px;}
 
 
 
@@ -56,7 +56,7 @@ line-height: 1.5;
 letter-spacing: var(--letter-spacing-text);
 }
 
-.link:hover, .link:focus { color: var(--OCEAN)}
+.button-order-service-text:hover, .button-order-service-text:focus { color: var(--OCEAN) }
 
 .address
 {
@@ -170,6 +170,11 @@ text-transform: capitalize;
     background-color: var(--CLOUD);
 }
 
+.team-image
+{
+    background-color: var(--WHITE);
+}
+
 .our-team-header
 {
     color: var(--NAVY);
@@ -211,6 +216,12 @@ letter-spacing: var(--letter-spacing-text);
 }
 
 /* portfolio.html main filling */
+
+.pbutton
+{
+    color: var(--IRIS);
+    background: var(--CLOUD);
+}
 
 .all-filter-button
 {
