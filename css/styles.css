@@ -16,8 +16,7 @@ a {
     text-decoration: none; 
   }
 
-button
-{
+button {
     cursor: pointer;
 }
 
@@ -142,7 +141,7 @@ letter-spacing: var(--letter-spacing-text);
 
 .works-header 
 {
-    color: var(--NAVY-BLUE);
+    color: var(--NAVY);
 text-align: center;
 /* Header 2 */
 font-family: Roboto;
@@ -156,7 +155,7 @@ text-transform: capitalize;
 
 .our-team-header
 {
-    color: var(--NAVY-BLUE);
+    color: var(--NAVY);
 text-align: center;
 /* Header 2 */
 font-family: Roboto;
@@ -170,7 +169,7 @@ text-transform: capitalize;
 
 .our-team-list-header
 {
-    color: var(--NAVY-BLUE);
+    color: var(--NAVY);
 text-align: center;
 /* Header 3 */
 font-family: Roboto;
@@ -229,7 +228,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
 
 .photo-h3 
 {
-    color: var(--NAVY-BLUE);
+    color: var(--NAVY);
 /* Header 3 */
 font-family: Roboto;
 font-size: 20px;
@@ -254,11 +253,11 @@ letter-spacing: var(--letter-spacing-h3);
 
 footer
 {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: var(--NAVY);
 }
 .logo-begin-down
 {
-    color: var(--IRIS, #4D5AE5);
+    color: var(--IRIS);
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -269,7 +268,7 @@ text-transform: uppercase;
 }
 .logo-end-down
 {
-    color: var(--CLOUD, #F4F4FD);
+    color: var(--CLOUD);
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -280,7 +279,7 @@ text-transform: uppercase;
 }
 .footer-text
 {
-    color: var(--CLOUD, #F4F4FD);
+    color: var(--CLOUD);
 /* Body */
 font-family: Roboto;
 font-size: 16px;
