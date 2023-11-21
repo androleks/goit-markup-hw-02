@@ -56,7 +56,7 @@ line-height: 1.5;
 letter-spacing: var(--letter-spacing-text);
 }
 
-.button-order-service-text:hover, .button-order-service-text:focus { color: var(--OCEAN) }
+.link:hover, .link:focus { color: var(--OCEAN) }
 
 .address
 {
