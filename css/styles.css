@@ -1,4 +1,4 @@
-:root {--text-color: #434455; --background-color: #FFFFFF; --IRIS: #4D5AE5; --NAVY-BLUE: #2E2F4; --SLATE: #434455; --WHITE: #FFF;--CLOUD: #F4F4FD;}
+:root {--text-color: #434455; --background-color: #FFFFFF; --IRIS: #4D5AE5; --NAVY-BLUE: #2E2F42; --SLATE: #434455; --WHITE: #FFF;--CLOUD: #F4F4FD;}
 :root {--letter-spacing-h2: 0.72px; --letter-spacing-h3: 0.4px; --letter-spacing-button-text: 0.64px; --letter-spacing-logo: 0.54px; --letter-spacing-text: 0.32px; --main-header-text: 1.12px;}
 
 body {
@@ -15,6 +15,11 @@ ul
 a { 
     text-decoration: none; 
   }
+
+button
+{
+    cursor: pointer;
+}
 
 .logo-begin-up 
 { color: var(--IRIS);
@@ -91,6 +96,7 @@ letter-spacing: var(--main-header-text);
 
 .button-order-service-text
 {
+
     color: var(--WHITE);
 /* Button Text */
 font-family: Roboto;
