@@ -71,6 +71,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: var(--letter-spacing-text);
+text-decoration: none;
 }
 
 /* index.html main filling */
