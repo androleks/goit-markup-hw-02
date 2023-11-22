@@ -238,6 +238,13 @@ background: var(--OCEAN);
     
 }
 
+.pbutton:hover, .pbutton:focus 
+{
+    color: var(--WHITE);
+    background-color: var(--OCEAN);
+
+}
+
 .photo-header
 { 
     color: var(--WHITE);
