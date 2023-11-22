@@ -62,17 +62,7 @@ letter-spacing: var(--letter-spacing-text);
 {
     font-style: normal;
 }
-.mail
-{
-    color: var(--SLATE);
-font-family:  'Roboto', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: var(--letter-spacing-text);
-}
-.tel
+.address-text
 {
     color: var(--SLATE);
 font-family:  'Roboto', sans-serif;
